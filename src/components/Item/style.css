@@ -1,0 +1,73 @@
+.trips__item--mountain {
+  background-image: url('/src/assets/img/Rectangle\ 98.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 150px;
+  margin-bottom: -70px;
+}
+
+.trips__item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.trips__item--info {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06),
+    0px 0px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 10px;
+  padding-top: 10px;
+
+  align-items: flex-start;
+}
+
+.trips__item--header {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 110%;
+  padding-bottom: 12px;
+  padding-left: 18px;
+}
+
+.trips__item--date,
+.trips__item--distance {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 100%;
+  padding-bottom: 12px;
+  padding-left: 18px;
+}
+
+.trips__item--link {
+  margin: auto;
+  padding-bottom: 11px;
+  padding-top: 12px;
+}
+
+.trips__item--more {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  color: #4f6262;
+}
+
+.trips__item--price {
+  color: white;
+  border: solid 1px white;
+  padding: 6px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+}
+
+.trips__item--top {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}

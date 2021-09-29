@@ -1,0 +1,225 @@
+.modal {
+  background-color: white;
+  display: flex;
+  padding: 20px;
+  padding-bottom: 24px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+.modal__wrapper {
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  max-width: 1024px;
+  margin: auto;
+  align-items: center;
+  width: 100%;
+}
+
+.modal__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.modal__form {
+  width: 100%;
+}
+
+.modal__title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: -0.005em;
+  color: #101010;
+}
+
+.modal__reset {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: -0.005em;
+  color: #4f6262;
+  padding: 6px 12px;
+  background: #f9f9f9;
+  border-radius: 4px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.date {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: -0.005em;
+  color: #a9a9a9;
+  margin-bottom: 7px;
+}
+
+.date__wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.date__wrapper::before {
+  content: '';
+  width: 10px;
+  height: 1px;
+  position: absolute;
+  top: 22px;
+  left: 105px;
+  background-color: #444;
+}
+
+.date__wrapper input {
+  width: 100%;
+  text-align: center;
+  background: #f9f9f9;
+  border-radius: 4px;
+  border: none;
+  padding: 12px 18px;
+}
+
+.modal__form button {
+  width: 100%;
+  border: none;
+  background-color: #4f6262;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 6px;
+}
+
+.modal__form button::after {
+  content: '';
+  width: 48px;
+  height: 2px;
+  left: 164px;
+  top: 478px;
+  background: #A9A9A9;
+  border-radius: 2px;
+}
+
+.modal__form fieldset {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.price {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: -0.005em;
+  color: #a9a9a9;
+  margin-bottom: 7px;
+}
+
+.price-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.price-item {
+  background-color: #f9f9f9;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 4px;
+  width: 28%;
+  text-align: center;
+  font-size: 16px;
+  color: #4f6262;
+}
+
+.range {
+  position: relative;
+  padding: 38px 20px;
+}
+
+.range-left::after {
+  content: '0км';
+  font-size: 10px;
+  line-height: 100%;
+  letter-spacing: -0.005em;
+  position: absolute;
+  margin-top: 16px;
+}
+
+.range-right::after {
+  content: '12км';
+  font-size: 10px;
+  line-height: 100%;
+  letter-spacing: -0.005em;
+  position: absolute;
+  margin-top: 16px;
+  left: 170px;
+}
+
+.line {
+  width: 160px;
+  height: 2px;
+  background-color: #4f6262;
+  position: absolute;
+  top: 38px;
+}
+
+.line-left {
+  width: 100%;
+  height: 2px;
+  background-color: #d7dcde;
+}
+
+.range p {
+  margin: 0;
+}
+
+.icon__left {
+  position: absolute;
+  top: 19px;
+  left: 0px;
+  cursor: pointer;
+}
+
+.icon__right {
+  left: 150px;
+  position: absolute;
+  top: 19px;
+  cursor: pointer;
+}
+
+.distance {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: -0.005em;
+  color: #a9a9a9;
+  margin-bottom: 7px;
+}
+
+.date__max::before,
+.date__min::before {
+  content: '';
+  width: 16px;
+  height: 16px;
+  background-image: url(../../assets/img/calender.svg);
+  position: absolute;
+  margin: 12px;
+}
+
+.date__line {
+  content: '';
+  width: 35px;
+  margin: 20px;
+  top: 87px;
+  background: #c4c4c4;
+}

@@ -1,0 +1,162 @@
+.trips-full__item--mountain {
+  background-image: url('/src/assets/img/Rectangle\ 99.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 210px;
+  margin-bottom: -12px;
+}
+
+.trips-full__item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.trips-full__back {
+  display: flex;
+  padding-left: 38px;
+  color: white;
+  background-color: #4f6262;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: -0.005em;
+  padding-top: 17px;
+  padding-bottom: 23px;
+  text-decoration: none;
+}
+
+.trips-full__back::before {
+  content: '';
+  width: 10px;
+  height: 16px;
+  background-image: url(../../assets/img/left.svg);
+  position: absolute;
+  left: 21px;
+  top: 62px;
+}
+
+.trips-full__item--info {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06),
+    0px 0px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 10px;
+  padding-top: 32px;
+  align-items: flex-start;
+}
+
+.trips-full__item--header {
+  color: white;
+  display: flex;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  padding-top: 60px;
+  padding-bottom: 12px;
+  padding-left: 18px;
+  text-align: left;
+}
+
+.trips-full__item--date,
+.trips-full__item--distance {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  padding-bottom: 12px;
+  padding-left: 18px;
+  text-align: left;
+}
+
+.trips-full__item--date::before {
+  content: '';
+  width: 14px;
+  height: 14px;
+  background-image: url(../../assets/img/date.svg);
+  position: absolute;
+}
+
+.trips-full__item--distance::before {
+  content: '';
+  width: 11px;
+  height: 12px;
+  background-image: url(../../assets/img/distance.svg);
+  position: absolute;
+}
+
+.trips-full__item--price {
+  color: white;
+  border: solid 1px white;
+  padding: 6px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+}
+
+.trips-full__item--top {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.trips-full__header {
+  display: flex;
+  width: 100%;
+}
+
+.trips__item--date-title,
+.trips__item--distance-title {
+  font-weight: 600;
+  padding-bottom: 10px;
+  padding-left: 24px;
+}
+
+.trips-full__item--title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: -0.005em;
+  padding-left: 20px;
+  padding-top: 22px;
+}
+
+.trips-full__item--text {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 12px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.005em;
+  text-align: left;
+  padding-bottom: 12px;
+}
+
+.trips-full__map {
+  width: 100%;
+  padding: 16px 20px 48px;
+  display: flex;
+  flex-direction: column;
+}
+
+.trips-full__map iframe {
+  width: 100%;
+  display: flex;
+  min-height: 480px;
+}
+
+.trips-full__item button {
+  margin-top: 48px;
+  width: 100%;
+  border: none;
+  background-color: #4f6262;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 6px;
+}

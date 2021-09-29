@@ -1,0 +1,21 @@
+.trips__wrapper {
+  max-width: 1024px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 20px;
+}
+
+.trips__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -3px;
+}
+
+.trips__title {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 100%;
+}
