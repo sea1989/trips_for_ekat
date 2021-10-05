@@ -42,7 +42,7 @@ export default class Login extends React.Component {
 
               <div className='login__form--new'>
                 <span className='login__form--nouser'>Нет учетной записи?</span>
-                <Link className='login__form--reg' to='/newUser'>
+                <Link className='login__form--reg' to='/reg1'>
                   Зарегистрироваться
                 </Link>
               </div>

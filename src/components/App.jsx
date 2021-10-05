@@ -3,6 +3,8 @@ import React from 'react';
 import PageIndex from '../pages/page_index';
 import PageLogin from '../pages/page1_login';
 import Page1 from '../pages/page1';
+import PageRegFirst from '../pages/page1_registration';
+
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './reset.css';
 import './style.css';
@@ -21,9 +23,14 @@ export default class App extends React.Component {
               <PageLogin />
             </Route>
 
+            <Route path='/reg1'>
+              <PageRegFirst />
+            </Route>
+
             <Route path='/'>
               <PageIndex />
             </Route>
+            
           </Switch>
         </React.Fragment>
       </Router>
