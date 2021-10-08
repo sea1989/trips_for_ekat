@@ -20,7 +20,10 @@ export default class Reg1 extends React.Component {
         <section className='reg__enter'>
           <form className='reg__form'>
             <fieldset>
-              <legend className='reg__form--name'>Регистрация</legend>
+              <div className='reg__form--header'>
+                <legend className='reg__form--name'>Регистрация</legend>
+                <p className='reg__form--step'> Шаг 1 из 2 </p>
+              </div>
 
               <h2 className='reg__form--title'>
                 Создайте новую учетную запись
@@ -61,20 +64,21 @@ export default class Reg1 extends React.Component {
               </p>
 
               <div className='reg__form--new'>
-                <span className='reg__form--nouser'>Нет учетной записи?</span>
-                <Link className='reg__form--reg' to='/reg1'>
-                  Зарегистрироваться
+                <span className='reg__form--nouser'>Есть учетной записи?</span>
+                <Link className='reg__form--reg' to='/reg2'>
+                  Войти
                 </Link>
               </div>
             </fieldset>
-            <p>
-              <input className='button' type='submit' value='ВОЙТИ' />
-            </p>
           </form>
-
-          <Link className='reg__lose' to='/loginLose'>
-            Забыли пароль?
-          </Link>
+          <footer className='reg__footer'>
+            <Link className='reg__back' to='/'>
+              Отмена
+            </Link>
+            <Link className='reg__next' to='/reg2'>
+              Далее
+            </Link>
+          </footer>
         </section>
       </div>
     );

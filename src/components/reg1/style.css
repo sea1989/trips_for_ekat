@@ -105,7 +105,7 @@ fieldset {
   display: flex;
   justify-content: space-between;
   margin-top: 25px;
-  margin-bottom: 110px;
+  margin-bottom: 205px;
 }
 
 .reg__form--wrapper {
@@ -161,5 +161,41 @@ fieldset {
   font-size: 12px;
   line-height: 140%;
   color: #a9a9a9;
-  margin-bottom: 16px;
+  margin-bottom: 5px;
+}
+
+.reg__footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 25px 25px 15px;
+}
+
+.reg__back {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0.01em;
+  color: #a9a9a9;
+}
+
+.reg__next {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0.01em;
+  color: #4f6262;
+}
+
+.reg__form--header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reg__form--step {
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: -0.005em;
+  color: #a9a9a9;
 }
